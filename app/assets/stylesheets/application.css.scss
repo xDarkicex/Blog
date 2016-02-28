@@ -1,0 +1,46 @@
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: red;
+  h1{
+    color: black;
+  }
+}
+
+#articleList{
+  margin: 0 auto;
+  max-width: 800px;
+  background: #FAFAFA;
+  text-align: center;
+  h1{
+    text-align: center;
+  }
+  a{
+    text-align: center;
+  }
+  table{
+    margin:20px;
+  }
+}
+
+a{
+  height: 30px;
+  line-height: 30px;
+  border: 2px solid rgba(3, 155, 229, 0.5);
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  color: #fff;
+  background: #01579B;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
